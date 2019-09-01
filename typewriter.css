@@ -3,8 +3,9 @@
 }
 
 #soundControl {
+    width: 2em;
     cursor: pointer;
-    display: inline;
+    display: inline-block;
     margin-left: 1em;
 }
 
