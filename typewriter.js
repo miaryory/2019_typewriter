@@ -27,7 +27,6 @@ function start() {
         }
 
         i++;
-        setTimeout(start, 1000);
-        //Math.random() * (400 - 40) + 40
+        setTimeout(start, Math.random() * (400 - 60) + 60);
     }
 }
